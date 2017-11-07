@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kylinj.com/manifest.json</loc>
+    
+    <lastmod>2017-11-07T01:31:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.kylinj.com/2017/10/21/Install-ImageWatch-On-VS2017/</loc>
     
     <lastmod>2017-11-06T09:24:04.514Z</lastmod>
