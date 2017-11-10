@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans,zh-CN,en,default">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="娇娇,重装系统,贴心指南," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="为娇娇女神打造的重装系统贴心指南 按部就班装系统傻瓜版，暂只有使用U盘刻录镜像安装">
+<meta name="keywords" content="娇娇,重装系统,贴心指南">
+<meta property="og:type" content="article">
+<meta property="og:title" content="To Jiao -- Reinstall Systems">
+<meta property="og:url" content="https://blog.kylinj.com/2016/01/25/To-Jiao-Reinstall-Systems/index.html">
+<meta property="og:site_name" content="Word of Wall">
+<meta property="og:description" content="为娇娇女神打造的重装系统贴心指南 按部就班装系统傻瓜版，暂只有使用U盘刻录镜像安装">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_0.PNG">
+<meta property="og:image" content="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_1.PNG">
+<meta property="og:image" content="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_2.PNG">
+<meta property="og:image" content="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_3.PNG">
+<meta property="og:image" content="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_4.PNG">
+<meta property="og:image" content="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_5.PNG">
+<meta property="og:image" content="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_6.PNG">
+<meta property="og:image" content="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_7.PNG">
+<meta property="og:updated_time" content="2017-11-10T04:01:59.888Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="To Jiao -- Reinstall Systems">
+<meta name="twitter:description" content="为娇娇女神打造的重装系统贴心指南 按部就班装系统傻瓜版，暂只有使用U盘刻录镜像安装">
+<meta name="twitter:image" content="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_0.PNG">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://blog.kylinj.com/2016/01/25/To-Jiao-Reinstall-Systems/"/>
+
+
+
+
+
+  <title>To Jiao -- Reinstall Systems | Word of Wall</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Word of Wall</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">KylinJ's Blog</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://blog.kylinj.com/2016/01/25/To-Jiao-Reinstall-Systems/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="KylinJ">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Word of Wall">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">To Jiao -- Reinstall Systems</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-01-25T23:45:57+08:00">
+                2016-01-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>为娇娇女神打造的重装系统贴心指南</p>
+<p>按部就班装系统傻瓜版，暂只有使用U盘刻录镜像安装<br><a id="more"></a></p>
+<h2 id="U盘安装"><a href="#U盘安装" class="headerlink" title="U盘安装"></a>U盘安装</h2><p>可分为U盘直接刻录镜像安装以及刻录U盘PE安装</p>
+<h3 id="U盘直接刻录镜像安装"><a href="#U盘直接刻录镜像安装" class="headerlink" title="U盘直接刻录镜像安装"></a>U盘直接刻录镜像安装</h3><p>步骤简单快捷，换系统需重复刻录，U盘空间占用较大</p>
+<h4 id="1-准备"><a href="#1-准备" class="headerlink" title="1. 准备"></a>1. 准备</h4><ul>
+<li><a href="http://pan.baidu.com/s/1skn728X" target="_blank" rel="external">U盘启动</a>：软媒魔方的一个小工具，可以很方便制作启动U盘</li>
+<li><a href="http://msdn.itellyou.cn" target="_blank" rel="external">系统镜像</a>：想要安装的系统版本镜像，ISO后缀的文件<br>那个链接是汇总。在操作系统分类有很多。给出几个常用的BT链接，可用迅雷下载或百度云离线下载：<ul>
+<li>windows 7: <a href="http://pan.baidu.com/s/1eRk6ibg" target="_blank" rel="external">中文旗舰版32位</a>    <a href="http://pan.baidu.com/s/1c0L7Dfy" target="_blank" rel="external">中文旗舰版64位</a></li>
+<li>windows 10:<a href="http://pan.baidu.com/s/1o6VwEim" target="_blank" rel="external">10151中文32位家庭/专业版</a> <a href="http://pan.baidu.com/s/1i4yDgrF" target="_blank" rel="external">10151中文64位家庭/专业版</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="2-刻录系统镜像"><a href="#2-刻录系统镜像" class="headerlink" title="2.刻录系统镜像"></a>2.刻录系统镜像</h4><p>1.打开U盘启动（usbboot）<br>2.在选择您的设备处选中你的U盘<br>3.在镜像文件路径处，点击边框右边浏览，选中下载的系统镜像（ISO文件）<br>4.根据需要选择是否附加软媒魔方，附加则安装完系统后会自带软媒<br>5.U盘文件系统选中NTFS，如果电脑很老，在启动时无法识别，请选择FAT32<br>6.点击右下角开始制作按钮，等待进度条结束后可移除U盘<br>7.<strong>备份</strong>好你的电脑后关机，<strong>系统盘</strong>（一般C盘）里有重要文件记得复制到其他盘备份。</p>
+<h4 id="3-U盘启动进入系统安装"><a href="#3-U盘启动进入系统安装" class="headerlink" title="3.U盘启动进入系统安装"></a>3.U盘启动进入系统安装</h4><p>这一部对于新手来说比较困难，因为根据电脑BIOS不同而异。根据你的电脑型号查询进入BIOS启动选择或BIOS设置的按键，或者观察开机第一屏上的提示按键，一般为F2，F12，Delete，ESC等。当出现如Boot Options类似标题的界面时就表明你成功啦！这时候按上下箭头找带USB字样的选项并回车确认，就完成U盘启动了。当然，你也可能进了BIOS设置界面，这时候就找到Boot标签，按界面提示（一般在最下或最右等边缘有每个键的功能提示）将USB放在最前面，保存并退出就会重启进入U盘了。</p>
+<h4 id="4-安装系统"><a href="#4-安装系统" class="headerlink" title="4.安装系统"></a>4.安装系统</h4><p>这时就让我们按照提示一步一步来就可以了。这里以win7为例。<br>成功U盘启动后，首先会有提示如下:<br><img src="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_0.PNG" alt="win7_x86_0"><br>这时候需要眼疾手快地按一下空格或回车键（其实是按任意键都可以继续啦，不要问我任意键是哪个键。。）就可以继续，会先黑屏读条(windows is loading file)一段时间，然后显示Starting Windows,接着就是这个界面了:<br><img src="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_1.PNG" alt="win7_x86_1"><br>点击<strong>下一步</strong><br><img src="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_2.PNG" alt="win7_x86_2"><br>点击<strong>现在安装</strong>，稍等一会后会出现下图<br><img src="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_3.PNG" alt="win7_x86_3"><br>这时点击左下角“我接受协议”前的方框,<strong>勾选</strong>成功后点击<strong>下一步</strong>，看到下面这个界面<br><img src="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_4.PNG" alt="win7_x86_4"><br>选择<strong>自定义</strong>，这样就是<em>全新覆盖安装</em>了，会出现像下面这张图一样的姐界面，但是硬盘容量分区不同，所以数据不会和你的相同。<br><img src="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_5.PNG" alt="win7_x86_5"><br>用鼠标选中你的<strong>系统分区</strong>，一般是第一个，当第一个显示为保留分区时就选第二个，最好根据你的系统盘容量大小对比一下，注意<strong>一定要慎重！</strong>不要选错了盘<br><img src="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_6.PNG" alt="win7_x86_6"><br>选中了系统盘后观察见面最下面是否有一行显示无法安装，假如有请停止安装，这时候还能进入系统。没有提示则点击格式化（不像图中那样的话就选驱动器高级选项就会有了），确认，格式化完成后点击下一步，像下图那样就正式开始安装系统啦。<br><img src="http://kylinj.oss-cn-qingdao.aliyuncs.com/win7_7.PNG" alt="win7_x86_7"><br>这时候就等进度条吧。一直等到提示你安装完成，要重启的时候你就可以拔掉U盘了。</p>
+<h4 id="5-激活"><a href="#5-激活" class="headerlink" title="5.激活"></a>5.激活</h4><ul>
+<li>下载小马激活工具 <a href="http://pan.baidu.com/s/1pKuxnuF" target="_blank" rel="external">OEM7</a>: 密码: qhkc  <a href="http://pan.baidu.com/s/1skgLXFn" target="_blank" rel="external">OEM9</a> 密码: 8j4n</li>
+<li>打开OEM7,点击一键激活，提示成功后重启即刻生效。</li>
+</ul>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/娇娇/" rel="tag"># 娇娇</a>
+          
+            <a href="/tags/重装系统/" rel="tag"># 重装系统</a>
+          
+            <a href="/tags/贴心指南/" rel="tag"># 贴心指南</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/01/25/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/10/21/Install-ImageWatch-On-VS2017/" rel="prev" title="Install ImageWatch extension on Visual Studio 2017">
+                Install ImageWatch extension on Visual Studio 2017 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">KylinJ</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#U盘安装"><span class="nav-number">1.</span> <span class="nav-text">U盘安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#U盘直接刻录镜像安装"><span class="nav-number">1.1.</span> <span class="nav-text">U盘直接刻录镜像安装</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-准备"><span class="nav-number">1.1.1.</span> <span class="nav-text">1. 准备</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-刻录系统镜像"><span class="nav-number">1.1.2.</span> <span class="nav-text">2.刻录系统镜像</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-U盘启动进入系统安装"><span class="nav-number">1.1.3.</span> <span class="nav-text">3.U盘启动进入系统安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-安装系统"><span class="nav-number">1.1.4.</span> <span class="nav-text">4.安装系统</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-激活"><span class="nav-number">1.1.5.</span> <span class="nav-text">5.激活</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">KylinJ</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a></div>
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
