@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kylinj.com/2016/01/25/To-Jiao-Reinstall-Systems/</loc>
+    
+    <lastmod>2017-11-10T04:01:59.888Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.kylinj.com/manifest.json</loc>
     
     <lastmod>2017-11-07T01:31:40.000Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://blog.kylinj.com/2016/01/25/hello-world/</loc>
     
     <lastmod>2017-05-12T08:49:42.379Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.kylinj.com/2016/01/25/To-Jiao-Resintall-Systems/</loc>
-    
-    <lastmod>2017-05-12T08:45:13.844Z</lastmod>
     
   </url>
   
