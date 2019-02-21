@@ -2,14 +2,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
   
 
 
 <html class="theme-next mist use-motion" lang="zh-Hans,zh-CN,en,default">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 
 
@@ -20,8 +29,6 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
 
 
 
@@ -32,15 +39,6 @@
 
 
 
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -84,7 +82,7 @@
   
     
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
   
 
 
@@ -92,27 +90,21 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
 
-<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=5.1.3">
+<link rel="stylesheet" href="/css/main.css?v=7.0.0">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=5.1.3">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.0">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=5.1.3">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.0">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.0">
 
 
-
-
-
-  <meta name="keywords" content="imagewatch,插件,VS2017," />
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.0" color="#222">
 
 
 
@@ -120,38 +112,18 @@
 
 
 
-
-
-
-<meta name="description" content="为 Visual Studio 2017 安装 ImageWatch 插件 在使用 OpenCV 过程中，ImageWatch 插件非常好用，但其只支持 VS 2012 - VS2015 之间的版本，所以根据插件页面的评论，摸索完成了在 VS2017 下的安装，总结步骤如下。">
-<meta name="keywords" content="imagewatch,插件,VS2017">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Install ImageWatch extension on Visual Studio 2017">
-<meta property="og:url" content="https://blog.kylinj.com/2017/10/21/Install-ImageWatch-On-VS2017/index.html">
-<meta property="og:site_name" content="Word of Wall">
-<meta property="og:description" content="为 Visual Studio 2017 安装 ImageWatch 插件 在使用 OpenCV 过程中，ImageWatch 插件非常好用，但其只支持 VS 2012 - VS2015 之间的版本，所以根据插件页面的评论，摸索完成了在 VS2017 下的安装，总结步骤如下。">
-<meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-06T09:24:04.514Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Install ImageWatch extension on Visual Studio 2017">
-<meta name="twitter:description" content="为 Visual Studio 2017 安装 ImageWatch 插件 在使用 OpenCV 过程中，ImageWatch 插件非常好用，但其只支持 VS 2012 - VS2015 之间的版本，所以根据插件页面的评论，摸索完成了在 VS2017 下的安装，总结步骤如下。">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Mist',
-    version: '5.1.3',
+    version: '7.0.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -163,12 +135,38 @@
 </script>
 
 
-
-  <link rel="canonical" href="https://blog.kylinj.com/2017/10/21/Install-ImageWatch-On-VS2017/"/>
-
+  
 
 
 
+
+  <meta name="description" content="为 Visual Studio 2017 安装 ImageWatch 插件 在使用 OpenCV 过程中，ImageWatch 插件非常好用，但其只支持 VS 2012 - VS2015 之间的版本，所以根据插件页面的评论，摸索完成了在 VS2017 下的安装，总结步骤如下。">
+<meta name="keywords" content="imagewatch,插件,VS2017">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Install ImageWatch extension on Visual Studio 2017">
+<meta property="og:url" content="https://blog.kylinj.com/2017/10/21/Install-ImageWatch-On-VS2017/index.html">
+<meta property="og:site_name" content="Word of Wall">
+<meta property="og:description" content="为 Visual Studio 2017 安装 ImageWatch 插件 在使用 OpenCV 过程中，ImageWatch 插件非常好用，但其只支持 VS 2012 - VS2015 之间的版本，所以根据插件页面的评论，摸索完成了在 VS2017 下的安装，总结步骤如下。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-11-06T09:24:04.515Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Install ImageWatch extension on Visual Studio 2017">
+<meta name="twitter:description" content="为 Visual Studio 2017 安装 ImageWatch 插件 在使用 OpenCV 过程中，ImageWatch 插件非常好用，但其只支持 VS 2012 - VS2015 之间的版本，所以根据插件页面的评论，摸索完成了在 VS2017 下的安装，总结步骤如下。">
+
+
+
+
+
+
+  <link rel="canonical" href="https://blog.kylinj.com/2017/10/21/Install-ImageWatch-On-VS2017/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
 
   <title>Install ImageWatch extension on Visual Studio 2017 | Word of Wall</title>
   
@@ -179,6 +177,35 @@
 
 
 
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
 
 </head>
 
@@ -194,23 +221,26 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
+      <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Word of Wall</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
       
         <h1 class="site-subtitle" itemprop="description">KylinJ's Blog</h1>
       
+    
+    
   </div>
 
   <div class="site-nav-toggle">
-    <button>
+    <button aria-label="切换导航栏">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -218,55 +248,89 @@
   </div>
 </div>
 
-<nav class="site-nav">
-  
 
+
+<nav class="site-nav">
   
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
       
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
       
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
 
       
+      
     </ul>
+  
+
+  
+    
+
   
 
   
@@ -274,12 +338,20 @@
 
 
 
- </div>
+  
+
+
+
+</div>
     </header>
+
+    
+
 
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
+          
           <div id="content" class="content">
             
 
@@ -292,6 +364,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -301,7 +375,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KylinJ">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="一个电子狗的极客札记">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
@@ -314,11 +388,20 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Install ImageWatch extension on Visual Studio 2017</h2>
+          <h2 class="post-title" itemprop="name headline">Install ImageWatch extension on Visual Studio 2017
+
+              
+            
+          </h2>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
@@ -326,19 +409,37 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-21T15:03:59+08:00">
-                2017-10-21
-              </time>
+
+              
+                
+              
+
+              <time title="创建时间：2017-10-21 15:03:59" itemprop="dateCreated datePublished" datetime="2017-10-21T15:03:59+08:00">2017-10-21</time>
             
 
             
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2017-11-06 17:24:04" itemprop="dateModified" datetime="2017-11-06T17:24:04+08:00">2017-11-06</time>
+              
             
           </span>
 
           
 
           
+            
             
           
 
@@ -347,8 +448,10 @@
 
           
             <span class="post-meta-divider">|</span>
-            <span class="page-pv"><i class="fa fa-file-o"></i>
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
             </span>
           
 
@@ -370,17 +473,17 @@
 
       
         <p>为 Visual Studio 2017 安装 ImageWatch 插件</p>
-<p>在使用 OpenCV 过程中，ImageWatch 插件非常好用，但其只支持 VS 2012 - VS2015 之间的版本，所以根据<a href="https://marketplace.visualstudio.com/items?itemName=WolfKienzle.ImageWatch#review-details" target="_blank" rel="external">插件页面</a>的评论，摸索完成了在 VS2017 下的安装，总结步骤如下。<br><a id="more"></a></p>
+<p>在使用 OpenCV 过程中，ImageWatch 插件非常好用，但其只支持 VS 2012 - VS2015 之间的版本，所以根据<a href="https://marketplace.visualstudio.com/items?itemName=WolfKienzle.ImageWatch#review-details" target="_blank" rel="noopener">插件页面</a>的评论，摸索完成了在 VS2017 下的安装，总结步骤如下。<br><a id="more"></a></p>
 <p>如果你想知道具体修改过程，请继续往下，如果想快速安装，点击<a href="#lazy">这里</a>直达。</p>
 <h2 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h2><ol>
-<li>下载插件 <a href="https://marketplace.visualstudio.com/items?itemName=WolfKienzle.ImageWatch#review-details" target="_blank" rel="external">ImageWatch.vsix</a>，用 WinRAR 等解压缩文件打开它。</li>
+<li>下载插件 <a href="https://marketplace.visualstudio.com/items?itemName=WolfKienzle.ImageWatch#review-details" target="_blank" rel="noopener">ImageWatch.vsix</a>，用 WinRAR 等解压缩文件打开它。</li>
 <li>打开其中 “extension.vsixmanifest” 文件，可用 Notepad++ / VS Code等编辑器打开。</li>
 <li>将第11行改为 “&#60;InstallationTarget Id=”Microsoft.VisualStudio.Community” Version=”[15.0]“ /&#62;”，<strong>注意没有引号</strong>。</li>
 <li>将第15行改为 “&#60;Dependency Id=”Microsoft.VisualStudio.MPF.15.0” DisplayName=”Visual Studio MPF 15.0” Version=”[15.0]“ /&#62;”， <strong>注意没有引号</strong>。</li>
 <li>保存并更新压缩包中文件。（在 WinRAR 提示是否更新时点击是）</li>
 <li>双击 ImageWatch.vsix 安装插件,此时插件也可正常安装。</li>
 <li>如果你的电脑已经安装 VS2012 - VS2015，忽略以下步骤，已经可以完美运行。</li>
-<li>安装 <a href="https://www.microsoft.com/en-us/download/details.aspx?id=30679" target="_blank" rel="external">Visual C++ Redistributable for Visual Studio 2012</a>。</li>
+<li>安装 <a href="https://www.microsoft.com/en-us/download/details.aspx?id=30679" target="_blank" rel="noopener">Visual C++ Redistributable for Visual Studio 2012</a>。</li>
 <li>找一台已经安装 VS 2012 - VS 2015 的电脑，将以下文件复制夹到你的电脑同样路径下,也可直接使用下文提供的网盘里的文件：</li>
 </ol>
 <ul>
@@ -391,7 +494,7 @@
 </ul>
 <p><span id="lazy"> </span></p>
 <h2 id="简单步骤"><a href="#简单步骤" class="headerlink" title="简单步骤"></a>简单步骤</h2><ol>
-<li>下载<a href="https://pan.baidu.com/s/1bozMqGB" target="_blank" rel="external">网盘文件</a></li>
+<li>下载<a href="https://pan.baidu.com/s/1bozMqGB" target="_blank" rel="noopener">网盘文件</a></li>
 <li>点击 ImageWatch.vsix 安装插件。</li>
 <li>在<em>运行</em>窗口(win + R)输入路径 <em>c:\windows\assembly\GAC_MSIL</em>,将网盘中4个文件夹复制进去。</li>
 <li>完成，可以愉快的用 ImageWatch 配合 OpenCV 了</li>
@@ -399,12 +502,18 @@
 
       
     </div>
+
+    
+
     
     
     
 
     
 
+    
+      
+    
     
 
     
@@ -454,17 +563,10 @@
   </article>
 
 
-
-    <div class="post-spread">
-      
-    </div>
   </div>
 
 
           </div>
-          
-
-
           
 
   
@@ -500,66 +602,81 @@
         </ul>
       
 
-      <section class="site-overview-wrap sidebar-panel">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">KylinJ</p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/">
-              
-                  <span class="site-state-item-count">3</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">6</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
-
-          </nav>
-
-          
-
-          <div class="links-of-author motion-element">
-            
+              <p class="site-description motion-element" itemprop="description">一个电子狗的极客札记</p>
           </div>
 
           
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
           
 
           
           
 
+          
+            
+          
           
 
         </div>
-      </section>
+      </div>
 
       
       <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
           <div class="post-toc">
 
             
-              
+            
+            
             
 
             
@@ -567,7 +684,7 @@
             
 
           </div>
-        </section>
+        </div>
       <!--/noindex-->
       
 
@@ -583,17 +700,19 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2017</span>
-  <span class="with-love">
+        <div class="copyright">&copy; 2016 – <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">KylinJ</span>
 
   
+
+  
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动</div>
 
 
 
@@ -601,31 +720,38 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a></div>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a></div>
 
 
 
 
         
 <div class="busuanzi-count">
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   
-    <span class="site-uv">
+    <span class="post-meta-item-icon">
       <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
       <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-      
     </span>
   
 
   
-    <span class="site-pv">
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
       <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
       <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-      
     </span>
   
 </div>
+
 
 
 
@@ -647,11 +773,14 @@
 
     
 
+    
+
+    
   </div>
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -665,7 +794,6 @@
 
 
 
-  
 
 
 
@@ -678,59 +806,49 @@
 
 
 
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+
+
+
+
 
   
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+  <script src="/js/src/utils.js?v=7.0.0"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+  <script src="/js/src/motion.js?v=7.0.0"></script>
 
 
 
   
   
 
+
+  <script src="/js/src/schemes/muse.js?v=7.0.0"></script>
+
+
+
+
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+  <script src="/js/src/scrollspy.js?v=7.0.0"></script>
+<script src="/js/src/post-details.js?v=7.0.0"></script>
 
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+  <script src="/js/src/bootstrap.js?v=7.0.0"></script>
 
 
 
@@ -740,37 +858,7 @@
   
 
 
-
-
-	
-
-
-
-
-
   
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-
-
-
-  
-
 
 
 
@@ -782,6 +870,17 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   
